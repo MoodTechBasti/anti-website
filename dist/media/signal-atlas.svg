@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Emsland Signal Atlas</title>
+  <desc id="desc">A dark analytical map visual showing local search demand around Lingen, Meppen, Papenburg, and Haren.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070c"/>
+      <stop offset="0.54" stop-color="#09111d"/>
+      <stop offset="1" stop-color="#030509"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f3cc"/>
+      <stop offset="0.55" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#f9c846"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#00f3cc" stop-opacity="0.96"/>
+      <stop offset="0.38" stop-color="#00f3cc" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#00f3cc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)"/>
+  <path d="M85 575 C225 448 272 325 402 304 C552 280 571 179 700 184 C818 189 857 304 996 288 C1092 277 1145 214 1200 151"
+        fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="88" stroke-linecap="round"/>
+  <path d="M85 575 C225 448 272 325 402 304 C552 280 571 179 700 184 C818 189 857 304 996 288 C1092 277 1145 214 1200 151"
+        fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M145 180 L1115 180 M145 540 L1115 540 M180 120 L180 610 M1100 120 L1100 610" stroke="#00f3cc" stroke-opacity="0.12" stroke-width="1"/>
+
+  <g opacity="0.78" filter="url(#blurGlow)">
+    <circle cx="340" cy="392" r="78" fill="#00f3cc" fill-opacity="0.2"/>
+    <circle cx="616" cy="250" r="92" fill="#6366f1" fill-opacity="0.2"/>
+    <circle cx="855" cy="348" r="72" fill="#f9c846" fill-opacity="0.16"/>
+  </g>
+
+  <g font-family="Roboto Mono, Consolas, monospace" font-size="19" letter-spacing="0" fill="#e8eef6">
+    <g transform="translate(300 372)">
+      <circle r="13" fill="url(#nodeGlow)"/>
+      <circle r="33" fill="none" stroke="#00f3cc" stroke-opacity="0.42"/>
+      <text x="24" y="-8" font-weight="700">MEPPEN</text>
+      <text x="24" y="18" fill="#9aa4b6" font-size="14">+41% Suchdruck</text>
+    </g>
+    <g transform="translate(626 244)">
+      <circle r="13" fill="url(#nodeGlow)"/>
+      <circle r="44" fill="none" stroke="#6366f1" stroke-opacity="0.5"/>
+      <text x="26" y="-8" font-weight="700">LINGEN</text>
+      <text x="26" y="18" fill="#9aa4b6" font-size="14">Top-3 Potenzial</text>
+    </g>
+    <g transform="translate(878 346)">
+      <circle r="12" fill="#f9c846"/>
+      <circle r="35" fill="none" stroke="#f9c846" stroke-opacity="0.38"/>
+      <text x="24" y="-8" font-weight="700">HAREN</text>
+      <text x="24" y="18" fill="#9aa4b6" font-size="14">Maps Heat</text>
+    </g>
+    <g transform="translate(1068 230)">
+      <circle r="10" fill="#a855f7"/>
+      <circle r="31" fill="none" stroke="#a855f7" stroke-opacity="0.4"/>
+      <text x="-154" y="-16" font-weight="700">PAPENBURG</text>
+      <text x="-154" y="10" fill="#9aa4b6" font-size="14">Lead-Korridor</text>
+    </g>
+  </g>
+
+  <g transform="translate(82 78)">
+    <rect width="315" height="122" rx="8" fill="#070b12" fill-opacity="0.78" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="24" y="35" fill="#00f3cc" font-family="Roboto Mono, Consolas, monospace" font-size="14" font-weight="700">SIGNAL ATLAS</text>
+    <text x="24" y="73" fill="#f8fafc" font-family="Outfit, Arial, sans-serif" font-size="28" font-weight="800">Emsland Demand Layer</text>
+    <text x="24" y="99" fill="#9aa4b6" font-family="Inter, Arial, sans-serif" font-size="15">Suchintention, Maps-Reichweite, Anfragefenster</text>
+  </g>
+
+  <g transform="translate(880 504)" font-family="Roboto Mono, Consolas, monospace" font-size="13">
+    <rect width="298" height="96" rx="8" fill="#070b12" fill-opacity="0.76" stroke="#00f3cc" stroke-opacity="0.18"/>
+    <text x="18" y="29" fill="#9aa4b6">LOCAL INTENT</text>
+    <rect x="18" y="48" width="250" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.08"/>
+    <rect x="18" y="48" width="214" height="9" rx="4.5" fill="url(#signal)"/>
+    <text x="18" y="79" fill="#e8eef6">Score 92 / 100</text>
+  </g>
+</svg>

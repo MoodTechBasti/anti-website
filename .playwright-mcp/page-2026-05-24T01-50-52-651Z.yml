@@ -1,0 +1,239 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "MoodTech Solutions Logo" [ref=e6] [cursor=pointer]:
+        - /url: "#hero-section"
+        - text: MoodTech
+      - link "Kostenlose Analyse" [ref=e8] [cursor=pointer]:
+        - /url: "#analysis-section"
+  - main [ref=e9]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e16]: Signal-System Mai 2026
+          - generic [ref=e17]: Web · Sichtbarkeit · Automation
+        - img [ref=e19]
+        - heading "Du weißt, was du tust. Google noch nicht." [level=1] [ref=e24]
+        - paragraph [ref=e25]: Wir verwandeln Websites, lokale Suche und Büroprozesse in ein messbares Wachstumssystem für Handwerk, Dienstleister und Kanzleien im Emsland.
+        - generic [ref=e26]:
+          - link "Kostenlose Analyse" [ref=e27] [cursor=pointer]:
+            - /url: "#analysis-section"
+            - generic [ref=e28]: query_stats
+            - text: Kostenlose Analyse
+          - link "Leistungen entdecken" [ref=e29] [cursor=pointer]:
+            - /url: "#leistungen"
+            - generic [ref=e30]: bolt
+            - text: Leistungen entdecken
+        - generic "MoodTech Leistungskennzahlen" [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: 90+
+            - generic [ref=e34]: PageSpeed Ziel
+          - generic [ref=e35]:
+            - generic [ref=e36]: 45%
+            - generic [ref=e37]: mehr Anfragen
+          - generic [ref=e38]:
+            - generic [ref=e39]: 8h
+            - generic [ref=e40]: Zeit pro Woche
+      - complementary "MoodTech Analyse Vorschau" [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Live Analyse
+            - generic [ref=e45]: bereit
+          - generic [ref=e47]:
+            - generic [ref=e48]: "96"
+            - generic [ref=e49]: Signal Score
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: travel_explore
+            - generic [ref=e61]:
+              - strong [ref=e62]: Lokale Sichtbarkeit
+              - generic [ref=e63]: Meppen · Lingen · Emsland
+          - generic [ref=e64]:
+            - generic [ref=e65]: auto_awesome_motion
+            - generic [ref=e66]:
+              - strong [ref=e67]: Workflow Autopilot
+              - generic [ref=e68]: Anfragen, CRM, Follow-ups
+          - generic [ref=e69]:
+            - generic [ref=e70]: rocket_launch
+            - generic [ref=e71]:
+              - strong [ref=e72]: Launch-fertig
+              - generic [ref=e73]: Performance first, DSGVO sauber
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - paragraph [ref=e77]: Referenzen & Prototypen
+        - heading "Digitale Lösungen auf Top-Niveau" [level=2] [ref=e78]
+        - paragraph [ref=e79]: Hier sehen Sie einen Auszug aus unseren standardisierten Systemarchitekturen für das Emsland.
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e83]: devices
+          - heading "High-Performance Websites" [level=3] [ref=e84]
+          - paragraph [ref=e85]: Blitzschnell geladene, mobile-optimierte Webseiten für Handwerker & Dienstleister. Ausgelegt auf direkte Kundenanfragen.
+        - generic [ref=e86]:
+          - heading "Lokale Suchmaschinen-Dominanz" [level=3] [ref=e92]
+          - paragraph [ref=e93]: Wir positionieren Sie in Google Maps & Suche an der Spitze. So finden Kunden aus Lingen, Meppen und Papenburg exklusiv Sie.
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - text: const workflow = new Automation();
+            - text: workflow.trigger('Erstkontakt')
+            - text: .syncCRM('Zentrale')
+            - text: .sendWelcomeMail();
+          - heading "Automatisierte Office-Abläufe" [level=3] [ref=e97]
+          - paragraph [ref=e98]: Schnittstellen-Lösungen, die Anfragen automatisch ins CRM eintragen, Termine buchen und Bestätigungen versenden.
+    - generic [ref=e99]:
+      - list [ref=e100]:
+        - listitem [ref=e101]:
+          - generic [ref=e102]: trending_up
+        - listitem [ref=e103]:
+          - generic [ref=e104]: language
+        - listitem [ref=e105]:
+          - generic [ref=e106]: sync
+        - listitem [ref=e107]:
+          - generic [ref=e108]: terminal
+        - listitem [ref=e109]:
+          - generic [ref=e110]: mail
+        - listitem [ref=e111]:
+          - generic [ref=e112]: check_circle
+        - listitem [ref=e113]:
+          - generic [ref=e114]: dashboard
+        - listitem [ref=e115]:
+          - generic [ref=e116]: groups
+      - heading "Mehr qualifizierte Kundenanfragen. Weniger administrativer Verwaltungsaufwand im Alltag." [level=2] [ref=e120]
+    - generic [ref=e122]:
+      - tablist "Unsere Leistungen" [ref=e123]:
+        - tab "Deine eigene Website" [selected] [ref=e124] [cursor=pointer]:
+          - generic [ref=e125]: language
+          - text: Deine eigene Website
+        - 'tab "Sichtbarkeit: SEO & Social Media" [ref=e126] [cursor=pointer]':
+          - generic [ref=e127]: visibility
+          - text: "Sichtbarkeit: SEO & Social Media"
+        - tab "Abläufe & Automatisierung" [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]: sync_alt
+          - text: Abläufe & Automatisierung
+      - tabpanel "Deine eigene Website" [ref=e130]:
+        - generic [ref=e132]:
+          - generic [ref=e134]:
+            - heading "Blitzschnelles Webdesign, das verkauft" [level=3] [ref=e135]
+            - paragraph [ref=e136]: Wir entwickeln keine virtuellen Visitenkarten, sondern digitale Vertriebskanäle. Jede Website wird von Grund auf für Smartphones optimiert, lädt in weniger als einer Sekunde und lenkt Besucher gezielt zu einer Kontaktaufnahme.
+            - list [ref=e137]:
+              - listitem [ref=e138]:
+                - generic [ref=e139]: check
+                - text: PageSpeed Score von über 90% garantiert
+              - listitem [ref=e140]:
+                - generic [ref=e141]: check
+                - text: 100% DSGVO-konform ohne Cookie-Banner-Zwang
+              - listitem [ref=e142]:
+                - generic [ref=e143]: check
+                - text: Extrem intuitive Benutzeroberfläche
+          - generic [ref=e146]:
+            - generic [ref=e151]: www.moodtechsolutions.com
+            - generic [ref=e153]:
+              - generic [ref=e154]: MoodTech solutions
+              - generic [ref=e156]:
+                - generic [ref=e158]: ⚡
+                - generic [ref=e161]: 🔒
+                - generic [ref=e164]: 📈
+    - generic [ref=e167]:
+      - heading "Unsere Zielgruppen und digitale Lösungen" [level=2] [ref=e168]
+      - generic [ref=e169]:
+        - generic [ref=e171]:
+          - paragraph [ref=e172]: Für lokale Betriebe
+          - heading "Handwerk & Dienstleistung" [level=3] [ref=e173]
+          - paragraph [ref=e174]: Mehr Aufträge durch Sichtbarkeit
+          - paragraph [ref=e175]: Wir sorgen dafür, dass Sie bei dringenden Kundenanfragen in Meppen, Lingen oder Papenburg sofort gefunden werden. Keine komplizierten Erklärungen – einfach messbar mehr Aufträge.
+          - link "Gespräch vereinbaren" [ref=e178] [cursor=pointer]:
+            - /url: "#analysis-section"
+        - generic [ref=e180]:
+          - paragraph [ref=e181]: Für Freiberufler & Teams
+          - heading "Kanzleien & Praxen" [level=3] [ref=e182]
+          - paragraph [ref=e183]: Entlastung des Backoffice
+          - paragraph [ref=e184]: Automatisierte Terminvergabe, digitale Mandanten-Erstberatung und nahtlose Verknüpfung Ihrer Software. Sparen Sie Zeit im Kanzlei- und Praxisalltag und gewinnen Sie erstklassige Mandanten.
+          - link "Abläufe optimieren" [ref=e187] [cursor=pointer]:
+            - /url: "#analysis-section"
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - heading "Erfolgsgeschichten aus dem Emsland" [level=2] [ref=e191]
+        - link "Eigenes Projekt starten" [ref=e192] [cursor=pointer]:
+          - /url: "#analysis-section"
+      - generic [ref=e194]:
+        - article [ref=e195]:
+          - generic [ref=e196]:
+            - text: MOODTECH
+            - generic [ref=e197]: trending_up
+          - generic [ref=e198]:
+            - 'heading "Tischlerei aus Meppen: 45% mehr Anfragen über Google" [level=3] [ref=e199]'
+            - generic [ref=e200]:
+              - generic [ref=e201]: 2026-05-12
+              - generic [ref=e202]: SEO & Web
+            - link "Erfolgsstory lesen keyboard_arrow_right" [ref=e203] [cursor=pointer]:
+              - /url: "#analysis-section"
+        - article [ref=e204]:
+          - generic [ref=e205]:
+            - text: MOODTECH
+            - generic [ref=e206]: sync_alt
+          - generic [ref=e207]:
+            - 'heading "Kanzlei in Lingen: 8 Stunden Arbeitszeit pro Woche gespart" [level=3] [ref=e208]'
+            - generic [ref=e209]:
+              - generic [ref=e210]: 2026-04-28
+              - generic [ref=e211]: Automatisierung
+            - link "Erfolgsstory lesen keyboard_arrow_right" [ref=e212] [cursor=pointer]:
+              - /url: "#analysis-section"
+        - article [ref=e213]:
+          - generic [ref=e214]:
+            - text: MOODTECH
+            - generic [ref=e215]: devices
+          - generic [ref=e216]:
+            - 'heading "Moderne Arztpraxis: Online-Termine & Mitarbeitergewinnung" [level=3] [ref=e217]'
+            - generic [ref=e218]:
+              - generic [ref=e219]: 2026-03-15
+              - generic [ref=e220]: Webdesign
+            - link "Erfolgsstory lesen keyboard_arrow_right" [ref=e221] [cursor=pointer]:
+              - /url: "#analysis-section"
+    - generic [ref=e227]:
+      - heading "Kostenlose Website-Analyse" [level=2] [ref=e229]
+      - paragraph [ref=e230]: Tragen Sie Ihre Daten ein. Wir analysieren Ihre aktuelle Website, Ihre Rankings im Emsland und Ihre digitalen Abläufe – 100% kostenlos und unverbindlich.
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - generic [ref=e233]: Website-URL oder Firmenname *
+          - textbox "Website-URL oder Firmenname *" [ref=e234]:
+            - /placeholder: z.B. www.mein-betrieb-emsland.de
+        - generic [ref=e235]:
+          - generic [ref=e236]: Ihr Name
+          - textbox "Ihr Name" [ref=e237]:
+            - /placeholder: z.B. Max Mustermann
+        - generic [ref=e238]:
+          - generic [ref=e239]: Ihre E-Mail-Adresse *
+          - textbox "Ihre E-Mail-Adresse *" [ref=e240]:
+            - /placeholder: z.B. mail@mein-betrieb.de
+        - button "Gratis prüfen" [ref=e241] [cursor=pointer]:
+          - generic [ref=e242]: send
+          - text: Gratis prüfen
+  - contentinfo [ref=e243]:
+    - generic [ref=e246]:
+      - generic [ref=e247]:
+        - paragraph [ref=e248]: Bereit abzuheben?
+        - paragraph [ref=e249]: MoodTech Solutions bringt Ihr lokales Business im Emsland auf das nächste digitale Level.
+      - generic [ref=e251]:
+        - link "Leistungen" [ref=e252] [cursor=pointer]:
+          - /url: "#leistungen"
+        - link "Zielgruppen" [ref=e253] [cursor=pointer]:
+          - /url: "#try-solutions-section"
+        - link "Erfolge" [ref=e254] [cursor=pointer]:
+          - /url: "#latest-blogs"
+        - link "Analyse anfordern" [ref=e255] [cursor=pointer]:
+          - /url: "#analysis-section"
+      - generic [ref=e257]:
+        - link "Impressum" [ref=e258] [cursor=pointer]:
+          - /url: "#impressum"
+        - link "Datenschutz" [ref=e259] [cursor=pointer]:
+          - /url: "#datenschutz"
+        - link "AGB" [ref=e260] [cursor=pointer]:
+          - /url: "#agb"
+    - img [ref=e263]:
+      - generic [ref=e264]: MOODTECH
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - link "MoodTech SOLUTIONS" [ref=e269] [cursor=pointer]:
+          - /url: "#hero-section"
+        - paragraph [ref=e270]: © 2026 MoodTech Solutions. Alle Rechte vorbehalten.
+      - navigation [ref=e272]:
+        - paragraph [ref=e273]: "Entwickelt im Emsland: Lingen | Meppen | Papenburg | Haren"

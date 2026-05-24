@@ -1,0 +1,2 @@
+[     423ms] [LOG] main.js execution started! @ http://127.0.0.1:5174/main.js?t=1779589007435:14
+[     429ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:5174/node_modules/.vite/deps/chunk-DTHWQS6Z.js?v=5cd4d0ad:296
