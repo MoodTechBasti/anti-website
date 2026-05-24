@@ -6,6 +6,9 @@ import { defineConfig } from 'vite';
 const WEBGPU = process.env.WEBGPU === '1';
 
 export default defineConfig({
+  // 1. Basis-Pfad für den GitHub Pages Unterordner hinzugefügt
+  base: '/anti-website/',
+
   server: {
     port: 3000,
     open: false
@@ -24,7 +27,7 @@ export default defineConfig({
   build: {
     // top-level await fuer dynamic import in main.js + WebGPU async init
     target: 'esnext',
-    outDir: 'dist',
+    outDir: 'docs', // 2. Geändert von 'dist' auf 'docs' für GitHub Pages
     minify: 'terser',
     rollupOptions: {
       input: {
