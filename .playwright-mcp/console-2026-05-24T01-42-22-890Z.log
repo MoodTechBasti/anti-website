@@ -1,0 +1,8 @@
+[    1144ms] [LOG] main.js execution started! @ http://127.0.0.1:5173/main.js:14
+[    1255ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-DTHWQS6Z.js?v=4f6aeb94:296
+[   94936ms] [LOG] main.js execution started! @ http://127.0.0.1:5173/main.js:14
+[   94953ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-DTHWQS6Z.js?v=4f6aeb94:296
+[  129211ms] [LOG] main.js execution started! @ http://127.0.0.1:5173/main.js?t=1779587071617:14
+[  129238ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-DTHWQS6Z.js?v=4f6aeb94:296
+[  139942ms] [LOG] main.js execution started! @ http://127.0.0.1:5173/main.js?t=1779587082384:14
+[  139958ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-DTHWQS6Z.js?v=4f6aeb94:296

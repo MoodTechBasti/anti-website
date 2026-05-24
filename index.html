@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="de" style="scroll-behavior: smooth;">
+<head>
+  <meta charset="utf-8">
+  <title>MoodTech Solutions | Websites, Sichtbarkeit & Automatisierung im Emsland</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MoodTech Solutions aus dem Emsland: High-Performance Webseiten, messbare SEO-Sichtbarkeit und automatisierte Kanzlei- und Betriebs-Workflows für Ihren Erfolg.">
+  <meta name="keywords" content="Webdesign Emsland, SEO Meppen, Automatisierung Lingen, Kanzlei Digitalisierung, Handwerk Website">
+  <meta name="author" content="MoodTech Solutions">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MoodTech Solutions">
+  <meta property="og:url" content="https://www.moodtechsolutions.com/">
+  <meta property="og:title" content="MoodTech Solutions | Websites, Sichtbarkeit & Automatisierung im Emsland">
+  <meta property="og:description" content="Wir bringen lokale Betriebe, Dienstleister und Kanzleien bei Google nach vorn und automatisieren administrative Routineprozesse.">
+  <meta property="og:image" content="https://www.moodtechsolutions.com/assets/image/sitecard-default.png">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MoodTech Solutions | Websites, Sichtbarkeit & Automatisierung im Emsland">
+  <meta name="twitter:description" content="Wir bringen lokale Betriebe, Dienstleister und Kanzleien bei Google nach vorn und automatisieren administrative Routineprozesse.">
+  <meta name="twitter:image" content="https://www.moodtechsolutions.com/assets/image/sitecard-default.png">
+
+  <!-- Style Sheets -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23050910'/%3E%3Cpath d='M14 20l18 18 18-18M32 38v14' fill='none' stroke='%2300f3cc' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- Fonts Preconnect & Links (Outfit, Inter & Google Symbols) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Tier 3: Global Particle Universe (Single Canvas) -->
+  <canvas id="universe-canvas" aria-hidden="true"></canvas>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Header Section -->
+  <header id="main-header" class="header">
+    <div class="grid-container">
+      <div class="main-content">
+        <a href="#hero-section" class="logo-link" aria-label="MoodTech Solutions Logo">
+          MoodTech <span>SOLUTIONS</span>
+        </a>
+        <nav class="nav-menu" role="navigation">
+          <a href="#leistungen" class="nav-link">Leistungen</a>
+          <a href="#signal-atlas" class="nav-link">Signal</a>
+          <a href="#try-solutions-section" class="nav-link">Zielgruppen</a>
+          <a href="#latest-blogs" class="nav-link">Erfolge</a>
+          <a href="#analysis-section" class="nav-link">Kontakt</a>
+        </nav>
+        <div>
+          <a href="#analysis-section" class="button button-secondary call-to-action">Kostenlose Analyse</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Welcome Wrapper (Hero Section) -->
+    <section id="hero-section" class="welcome-wrapper">
+    <div class="hero-video-wrapper">
+      <div class="main-particles-component-section">
+        <div class="main-particles-container">
+          <!-- Particles Canvas Mount -->
+          <canvas id="hero-canvas"></canvas>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-container welcome-section">
+      <div class="hero-composition">
+        <div class="hero-copy">
+          <div class="hero-kicker">
+            <span class="hero-kicker-dot" aria-hidden="true"></span>
+            <span>Signal-System Mai 2026</span>
+            <span class="hero-kicker-meta">Web · Sichtbarkeit · Automation</span>
+          </div>
+
+          <div class="logo-container">
+            <!-- Glowing Hexagonal Logo representing MT (MoodTech) -->
+            <svg viewBox="0 0 100 100" width="80" height="80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="logo-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="var(--color-accent-indigo)" />
+                  <stop offset="100%" stop-color="var(--color-accent-cyan)" />
+                </linearGradient>
+                <filter id="logo-glow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                </filter>
+              </defs>
+              <polygon points="50,5 90,28 90,72 50,95 10,72 10,28" stroke="url(#logo-grad-1)" stroke-width="3" stroke-linejoin="round" opacity="0.5" />
+              <polygon points="50,12 84,32 84,68 50,88 16,68 16,32" stroke="url(#logo-grad-1)" stroke-width="1.5" stroke-linejoin="round" opacity="0.25" />
+              <path d="M30,35 L50,55 L70,35" stroke="url(#logo-grad-1)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#logo-glow)" />
+              <path d="M50,55 L50,75" stroke="var(--color-accent-cyan)" stroke-width="5" stroke-linecap="round" filter="url(#logo-glow)" />
+            </svg>
+          </div>
+
+          <div class="header-container">
+            <h1 class="landing-main-header">
+              <span id="typed-hero-title">Du weißt, was du tust. Google noch nicht.</span>
+            </h1>
+          </div>
+
+          <p class="body hero-subtitle">
+            Wir verwandeln Websites, lokale Suche und Büroprozesse in ein messbares Wachstumssystem für Handwerk, Dienstleister und Kanzleien im Emsland.
+          </p>
+
+          <div class="welcome-cta">
+            <a href="#analysis-section" class="button button-primary call-to-action">
+              <span class="symbol" aria-hidden="true">query_stats</span> Kostenlose Analyse
+            </a>
+            <a href="#leistungen" class="button button-secondary call-to-action">
+              <span class="symbol" aria-hidden="true">bolt</span> Leistungen entdecken
+            </a>
+          </div>
+
+          <div class="hero-proof-strip" aria-label="MoodTech Leistungskennzahlen">
+            <div class="hero-proof">
+              <span class="hero-proof-value">90+</span>
+              <span class="hero-proof-label">PageSpeed Ziel</span>
+            </div>
+            <div class="hero-proof">
+              <span class="hero-proof-value">45%</span>
+              <span class="hero-proof-label">mehr Anfragen</span>
+            </div>
+            <div class="hero-proof">
+              <span class="hero-proof-value">8h</span>
+              <span class="hero-proof-label">Zeit pro Woche</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-command-surface" aria-label="MoodTech Analyse Vorschau">
+          <div class="command-orbit command-orbit-one" aria-hidden="true"></div>
+          <div class="command-orbit command-orbit-two" aria-hidden="true"></div>
+          <div class="signal-card signal-card-main">
+            <div class="signal-card-header">
+              <span>Live Analyse</span>
+              <span class="signal-status">bereit</span>
+            </div>
+            <div class="signal-score-row">
+              <div>
+                <span class="signal-score">96</span>
+                <span class="signal-score-label">Signal Score</span>
+              </div>
+              <div class="signal-radar" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="signal-bars" aria-hidden="true">
+              <span style="--bar-size: 92%;"></span>
+              <span style="--bar-size: 76%;"></span>
+              <span style="--bar-size: 84%;"></span>
+            </div>
+          </div>
+
+          <div class="signal-stack">
+            <div class="signal-card signal-card-mini">
+              <span class="signal-icon symbol" aria-hidden="true">travel_explore</span>
+              <div>
+                <strong>Lokale Sichtbarkeit</strong>
+                <span>Meppen · Lingen · Emsland</span>
+              </div>
+            </div>
+            <div class="signal-card signal-card-mini">
+              <span class="signal-icon symbol" aria-hidden="true">auto_awesome_motion</span>
+              <div>
+                <strong>Workflow Autopilot</strong>
+                <span>Anfragen, CRM, Follow-ups</span>
+              </div>
+            </div>
+            <div class="signal-card signal-card-mini signal-card-accent">
+              <span class="signal-icon symbol" aria-hidden="true">rocket_launch</span>
+              <div>
+                <strong>Launch-fertig</strong>
+                <span>Performance first, DSGVO sauber</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="hero-scroll-cue" aria-hidden="true">
+        <span></span>
+        <p>Scroll</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase Section -->
+  <section id="showcase-section" class="showcase-section">
+    <div class="grid-container">
+      <div class="showcase-header">
+        <p class="small">Referenzen & Prototypen</p>
+        <h2 class="heading-3">Digitale Lösungen auf Top-Niveau</h2>
+        <p class="body">Hier sehen Sie einen Auszug aus unseren standardisierten Systemarchitekturen für das Emsland.</p>
+      </div>
+      
+      <div class="showcase-grid">
+        <!-- Card 1 -->
+        <div class="showcase-card">
+          <div class="showcase-visual">
+            <span class="symbol" aria-hidden="true">devices</span>
+          </div>
+          <h3 class="showcase-title">High-Performance Websites</h3>
+          <p class="showcase-description">
+            Blitzschnell geladene, mobile-optimierte Webseiten für Handwerker & Dienstleister. Ausgelegt auf direkte Kundenanfragen.
+          </p>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="showcase-card">
+          <div class="showcase-visual">
+            <div class="mockup-seo">
+              <div class="mockup-seo-bar blue"></div>
+              <div class="mockup-seo-bar red"></div>
+              <div class="mockup-seo-bar"></div>
+            </div>
+          </div>
+          <h3 class="showcase-title">Lokale Suchmaschinen-Dominanz</h3>
+          <p class="showcase-description">
+            Wir positionieren Sie in Google Maps & Suche an der Spitze. So finden Kunden aus Lingen, Meppen und Papenburg exklusiv Sie.
+          </p>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="showcase-card">
+          <div class="showcase-visual">
+            <div class="mockup-code">
+              const workflow = new Automation();<br>
+              workflow.trigger('Erstkontakt')<br>
+              &nbsp;&nbsp;.syncCRM('Zentrale')<br>
+              &nbsp;&nbsp;.sendWelcomeMail();
+            </div>
+          </div>
+          <h3 class="showcase-title">Automatisierte Office-Abläufe</h3>
+          <p class="showcase-description">
+            Schnittstellen-Lösungen, die Anfragen automatisch ins CRM eintragen, Termine buchen und Bestätigungen versenden.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agent First Section -->
+  <section id="agent-first-section" class="agent-first-section">
+    <ul class="icon-list">
+      <li><div class="bouncer symbol" aria-hidden="true">trending_up</div></li>
+      <li><div class="bouncer symbol" aria-hidden="true">language</div></li>
+      <li><div class="bouncer symbol" aria-hidden="true">sync</div></li>
+      <li><div class="bouncer symbol" aria-hidden="true">terminal</div></li>
+      <li><div class="bouncer symbol" aria-hidden="true">mail</div></li>
+      <li><div class="bouncer symbol" aria-hidden="true">check_circle</div></li>
+      <li><div class="bouncer symbol" aria-hidden="true">dashboard</div></li>
+      <li><div class="bouncer symbol" aria-hidden="true">groups</div></li>
+    </ul>
+    
+    <div class="grid-container text-container">
+      <div class="grid-row">
+        <div class="grid-col col-md-9">
+          <h2 class="heading-3 agent-first-text">
+            Mehr qualifizierte Kundenanfragen. Weniger administrativer Verwaltungsaufwand im Alltag.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Explorer Section (Tab-Layout) -->
+  <section id="leistungen" class="feature-explorer-section">
+    <div class="grid-container">
+      <!-- Tab Buttons -->
+      <div class="feature-tabs" role="tablist" aria-label="Unsere Leistungen">
+        <button id="tab-btn-website" class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-content-website" tabindex="0">
+          <span class="symbol" aria-hidden="true">language</span> Deine eigene Website
+        </button>
+        <button id="tab-btn-visibility" class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-content-visibility" tabindex="-1">
+          <span class="symbol" aria-hidden="true">visibility</span> Sichtbarkeit: SEO & Social Media
+        </button>
+        <button id="tab-btn-automation" class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-content-automation" tabindex="-1">
+          <span class="symbol" aria-hidden="true">sync_alt</span> Abläufe & Automatisierung
+        </button>
+      </div>
+
+      <!-- Tab Content: Website -->
+      <div id="tab-content-website" class="tab-content active" role="tabpanel" aria-labelledby="tab-btn-website">
+        <div class="feature-item">
+          <div class="grid-row">
+            <div class="grid-col col-xs-4 col-md-4">
+              <div class="feature-copy">
+                <h3 class="heading-4 feature-title">Blitzschnelles Webdesign, das verkauft</h3>
+                <p class="feature-description">
+                  Wir entwickeln keine virtuellen Visitenkarten, sondern digitale Vertriebskanäle. Jede Website wird von Grund auf für Smartphones optimiert, lädt in weniger als einer Sekunde und lenkt Besucher gezielt zu einer Kontaktaufnahme.
+                </p>
+                <ul class="feature-bullets">
+                  <li><span class="symbol" aria-hidden="true">check</span> PageSpeed Score von über 90% garantiert</li>
+                  <li><span class="symbol" aria-hidden="true">check</span> 100% DSGVO-konform ohne Cookie-Banner-Zwang</li>
+                  <li><span class="symbol" aria-hidden="true">check</span> Extrem intuitive Benutzeroberfläche</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-col col-xs-4 col-md-offset-2 col-md-6">
+              <div class="feature-media">
+                <div class="mockup-browser">
+                  <div class="browser-header">
+                    <div class="browser-dot red"></div>
+                    <div class="browser-dot yellow"></div>
+                    <div class="browser-dot green"></div>
+                    <div class="browser-address">www.moodtechsolutions.com</div>
+                  </div>
+                  <div class="browser-content">
+                    <div class="hero-mock">
+                      <div class="hero-mock-title">MoodTech solutions</div>
+                      <div class="hero-mock-bar"></div>
+                      <div class="hero-mock-grid">
+                        <div class="hero-mock-card">
+                          <div class="mock-icon">⚡</div>
+                          <div class="mock-bar sm"></div>
+                        </div>
+                        <div class="hero-mock-card">
+                          <div class="mock-icon">🔒</div>
+                          <div class="mock-bar sm"></div>
+                        </div>
+                        <div class="hero-mock-card">
+                          <div class="mock-icon">📈</div>
+                          <div class="mock-bar sm"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content: Sichtbarkeit -->
+      <div id="tab-content-visibility" class="tab-content" role="tabpanel" aria-labelledby="tab-btn-visibility">
+        <div class="feature-item">
+          <div class="grid-row">
+            <div class="grid-col col-xs-4 col-md-4">
+              <div class="feature-copy">
+                <h3 class="heading-4 feature-title">Dominieren Sie die lokale Google-Suche</h3>
+                <p class="feature-description">
+                  Wer im Emsland nach Ihren Dienstleistungen sucht, muss auf Sie stoßen. Durch gezieltes Local SEO bringen wir Sie in die Top 3 der lokalen Google Maps Ergebnisse und stärken Ihre organische Sichtbarkeit für Lingen, Meppen und Papenburg.
+                </p>
+                <ul class="feature-bullets">
+                  <li><span class="symbol" aria-hidden="true">check</span> Lokale Keyword-Optimierung für Ihre Zielorte</li>
+                  <li><span class="symbol" aria-hidden="true">check</span> Google Business Profile Komplettbetreuung</li>
+                  <li><span class="symbol" aria-hidden="true">check</span> Social Media Konzepte zur Neukundengewinnung</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-col col-xs-4 col-md-offset-2 col-md-6">
+              <div class="feature-media">
+                <div class="mockup-browser">
+                  <div class="browser-header">
+                    <div class="browser-dot red"></div>
+                    <div class="browser-dot yellow"></div>
+                    <div class="browser-dot green"></div>
+                    <div class="browser-address">google.de/search?q=seo+emsland</div>
+                  </div>
+                  <div class="browser-content search-results">
+                    <div class="ranking-header">
+                      <div class="ranking-chart">
+                        <svg viewBox="0 0 120 30" class="chart-svg">
+                          <path d="M0,25 Q30,22 60,18 T120,4" fill="none" stroke="var(--color-accent-cyan)" stroke-width="2.5" stroke-linecap="round"/>
+                          <circle cx="120" cy="4" r="4" fill="var(--color-accent-cyan)" />
+                        </svg>
+                        <span class="chart-label">Rank #1</span>
+                      </div>
+                    </div>
+                    <div class="search-item active">
+                      <div class="search-title">1. MoodTech Solutions <span class="badge">Aktiv</span></div>
+                      <div class="search-rating">★★★★★ <span class="rating-count">(128 reviews)</span></div>
+                      <div class="search-snippet">High-Performance Webseiten & Suchmaschinen-Dominanz...</div>
+                    </div>
+                    <div class="search-item muted">
+                      <div class="search-title">2. Standard Agentur</div>
+                      <div class="search-rating">★★★☆☆ (12)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content: Automatisierung -->
+      <div id="tab-content-automation" class="tab-content" role="tabpanel" aria-labelledby="tab-btn-automation">
+        <div class="feature-item">
+          <div class="grid-row">
+            <div class="grid-col col-xs-4 col-md-4">
+              <div class="feature-copy">
+                <h3 class="heading-4 feature-title">Verwaltung auf Autopilot stellen</h3>
+                <p class="feature-description">
+                  Manuelle Datenübertragung kostet wertvolle Lebenszeit. Wir verbinden Ihre Website mit Ihrem Kalender, Ihrer E-Mail-Software und Ihrem CRM-System, um eintreffende Anfragen vollautomatisch zu strukturieren und Erstgespräche direkt zu buchen.
+                </p>
+                <ul class="feature-bullets">
+                  <li><span class="symbol" aria-hidden="true">check</span> Automatisierter Rechnungs- & E-Mail-Versand</li>
+                  <li><span class="symbol" aria-hidden="true">check</span> Synchronisation zwischen all Ihren Tools</li>
+                  <li><span class="symbol" aria-hidden="true">check</span> Bis zu 8 Stunden Zeitersparnis pro Woche</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-col col-xs-4 col-md-offset-2 col-md-6">
+              <div class="feature-media">
+                <div class="mockup-workflow">
+                  <div class="workflow-node">
+                    <div class="node-icon"><span class="symbol" aria-hidden="true">language</span></div>
+                    <div class="node-label">Website</div>
+                  </div>
+                  <div class="workflow-line">
+                    <div class="glowing-dot"></div>
+                  </div>
+                  <div class="workflow-node">
+                    <div class="node-icon"><span class="symbol" aria-hidden="true">sync_alt</span></div>
+                    <div class="node-label">CRM Sync</div>
+                  </div>
+                  <div class="workflow-line">
+                    <div class="glowing-dot delay"></div>
+                  </div>
+                  <div class="workflow-node accent">
+                    <div class="node-icon"><span class="symbol" aria-hidden="true">mail</span></div>
+                    <div class="node-label">Autopilot</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signal Atlas Section -->
+  <section id="signal-atlas" class="signal-atlas-section">
+    <div class="grid-container">
+      <div class="atlas-layout">
+        <div class="atlas-copy">
+          <p class="small section-eyebrow">Lokale Nachfrage sichtbar machen</p>
+          <h2 class="heading-3">Wir zeigen, wo Ihr Markt gerade magnetisch wird.</h2>
+          <p class="body">
+            Vor dem ersten Anzeigen-Euro entsteht eine Karte aus Suchdruck, Karten-Reichweite und Conversion-Wahrscheinlichkeit. So wird aus Emsland-Sichtbarkeit ein präziser Angriffsplan.
+          </p>
+          <div class="atlas-metrics" aria-label="Signal Atlas Kennzahlen">
+            <div class="atlas-metric">
+              <span>92</span>
+              <strong>Intent Score</strong>
+              <p>Welche Begriffe jetzt kaufbereit sind.</p>
+            </div>
+            <div class="atlas-metric">
+              <span>4</span>
+              <strong>Standort-Cluster</strong>
+              <p>Lingen, Meppen, Papenburg, Haren.</p>
+            </div>
+            <div class="atlas-metric">
+              <span>14d</span>
+              <strong>Prioritätenplan</strong>
+              <p>Was zuerst Ranking und Anfragen bewegt.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="media-stage atlas-stage">
+          <video class="section-loop" autoplay muted loop playsinline preload="metadata" poster="/media/signal-atlas.svg" aria-hidden="true">
+            <source src="/media/signal-atlas-loop.mp4" type="video/mp4">
+          </video>
+          <img src="/media/signal-atlas.svg" alt="Emsland Signal-Atlas mit lokalen Such- und Anfrageclustern" loading="lazy" width="1280" height="720">
+          <div class="media-readout" aria-hidden="true">
+            <span>LIVE MAP</span>
+            <strong>Demand heat rising</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Operating Room Section -->
+  <section id="operating-room" class="operating-room-section">
+    <div class="grid-container">
+      <div class="operating-header">
+        <p class="small section-eyebrow">Nicht nur Website. Betriebssystem.</p>
+        <h2 class="heading-3">Jede Anfrage landet sofort im richtigen Takt.</h2>
+      </div>
+
+      <div class="operating-layout">
+        <div class="media-stage operating-stage">
+          <video class="section-loop" autoplay muted loop playsinline preload="metadata" poster="/media/ops-console.svg" aria-hidden="true">
+            <source src="/media/automation-flow-loop.mp4" type="video/mp4">
+          </video>
+          <img src="/media/ops-console.svg" alt="Automation Control Room mit Lead-Erkennung, CRM-Sync und Follow-up" loading="lazy" width="1280" height="720">
+        </div>
+
+        <div class="operator-steps" aria-label="Automationsablauf">
+          <article class="operator-step">
+            <span class="step-index">01</span>
+            <h3>Anfrage erkannt</h3>
+            <p>Formular, E-Mail und Telefonimpulse werden in einem sauberen Lead-Kontext gesammelt.</p>
+          </article>
+          <article class="operator-step">
+            <span class="step-index">02</span>
+            <h3>Qualität bewertet</h3>
+            <p>Standort, Absicht und Dringlichkeit entscheiden, welche Anfrage sofort Priorität bekommt.</p>
+          </article>
+          <article class="operator-step">
+            <span class="step-index">03</span>
+            <h3>Follow-up ausgelöst</h3>
+            <p>Antwort, Kalenderlink und CRM-Status laufen automatisch, ohne Copy-Paste im Backoffice.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gravity Proof Section -->
+  <section id="gravity-proof" class="gravity-proof-section">
+    <div class="grid-container">
+      <div class="proof-grid">
+        <div class="proof-copy">
+          <p class="small section-eyebrow">Launch ist erst der Anfang</p>
+          <h2 class="heading-3">Aus digitalem Rauschen wird ein messbarer Wachstumsrhythmus.</h2>
+          <p class="body">
+            Nach dem Start beobachten wir nicht nur Besucherzahlen. Wir messen, welche Seiten Anfragen auslösen, welche Rankings tragen und wo Automatisierung echte Zeit zurückholt.
+          </p>
+          <a href="#analysis-section" class="button button-primary call-to-action">
+            <span class="symbol" aria-hidden="true">rocket_launch</span> Wachstumspfad anfordern
+          </a>
+        </div>
+
+        <div class="proof-media-wrap">
+          <div class="media-stage proof-stage">
+            <video class="section-loop" autoplay muted loop playsinline preload="metadata" poster="/media/growth-cockpit.svg" aria-hidden="true">
+              <source src="/media/growth-pulse-loop.mp4" type="video/mp4">
+            </video>
+            <img src="/media/growth-cockpit.svg" alt="Growth Cockpit mit Traffic-, Anfrage- und Performance-Kennzahlen" loading="lazy" width="1280" height="720">
+          </div>
+        </div>
+      </div>
+
+      <div class="proof-rail" aria-label="Wachstumsbeweise">
+        <article class="proof-rail-item">
+          <span class="symbol" aria-hidden="true">query_stats</span>
+          <strong>Ranking, nicht Bauchgefühl</strong>
+          <p>Jede Optimierung bekommt eine messbare Hypothese und ein Ergebnisfenster.</p>
+        </article>
+        <article class="proof-rail-item">
+          <span class="symbol" aria-hidden="true">speed</span>
+          <strong>Performance als Vertrieb</strong>
+          <p>Schnelle Seiten halten mobile Besucher im Fluss und senken Reibung vor der Anfrage.</p>
+        </article>
+        <article class="proof-rail-item">
+          <span class="symbol" aria-hidden="true">autorenew</span>
+          <strong>Routine wird Autopilot</strong>
+          <p>Wiederholbare Schritte werden automatisiert, damit Teams sich auf Beratung konzentrieren.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Try Solutions Section (Zielgruppen) -->
+  <section id="try-solutions-section" class="try-solutions-section">
+    <div class="grid-container">
+      <h2 class="sr-only">Unsere Zielgruppen und digitale Lösungen</h2>
+      <div class="section-wrapper">
+        
+        <!-- Left Column: Handwerk & Dienstleistung -->
+        <div class="solution-section">
+          <div class="try-solution-background left">
+            <canvas id="canvas-left"></canvas>
+          </div>
+          <div class="try-solutions-content">
+            <p class="try-solution-label small">Für lokale Betriebe</p>
+            <h3 class="heading-4 header">Handwerk & Dienstleistung</h3>
+            <p class="heading-4 subhead">Mehr Aufträge durch Sichtbarkeit</p>
+            <p class="body" style="color: var(--text-variant-color);">
+              Wir sorgen dafür, dass Sie bei dringenden Kundenanfragen in Meppen, Lingen oder Papenburg sofort gefunden werden. Keine komplizierten Erklärungen – einfach messbar mehr Aufträge.
+            </p>
+            <div class="grid-row solutions-cta">
+              <div class="grid-col">
+                <a href="#analysis-section" class="button button-primary call-to-action">Gespräch vereinbaren</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Kanzleien & Praxen -->
+        <div class="solution-section">
+          <div class="try-solution-background right">
+            <canvas id="canvas-right"></canvas>
+          </div>
+          <div class="try-solutions-content">
+            <p class="try-solution-label small">Für Freiberufler & Teams</p>
+            <h3 class="heading-4 header">Kanzleien & Praxen</h3>
+            <p class="heading-4 subhead">Entlastung des Backoffice</p>
+            <p class="body" style="color: var(--text-variant-color);">
+              Automatisierte Terminvergabe, digitale Mandanten-Erstberatung und nahtlose Verknüpfung Ihrer Software. Sparen Sie Zeit im Kanzlei- und Praxisalltag und gewinnen Sie erstklassige Mandanten.
+            </p>
+            <div class="grid-row solutions-cta">
+              <div class="grid-col">
+                <a href="#analysis-section" class="button button-secondary call-to-action">Abläufe optimieren</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Blogs (Erfolge) -->
+  <section id="latest-blogs" class="landing-latest-blogs">
+    <div class="grid-container">
+      <div class="landing-latest-blogs-header">
+        <h2 class="heading-4">Erfolgsgeschichten aus dem Emsland</h2>
+        <a href="#analysis-section" class="button button-secondary call-to-action">Eigenes Projekt starten</a>
+      </div>
+      
+      <div class="landing-latest-blogs-list">
+        <div class="grid-row">
+          
+          <!-- Blog Card 1 -->
+          <article class="list-item">
+            <div class="list-image-wrapper">
+              <span class="symbol" style="color: var(--accent-blue);" aria-hidden="true">trending_up</span>
+            </div>
+            <div class="list-item-content">
+              <h3 class="heading-6 item-title">Tischlerei aus Meppen: 45% mehr Anfragen über Google</h3>
+              <div class="list-item-metadata">
+                <span class="caption">2026-05-12</span>
+                <span class="caption">SEO & Web</span>
+              </div>
+              <a href="#analysis-section" class="caption arrow-link">Erfolgsstory lesen</a>
+            </div>
+          </article>
+
+          <!-- Blog Card 2 -->
+          <article class="list-item">
+            <div class="list-image-wrapper">
+              <span class="symbol" style="color: var(--accent-red);" aria-hidden="true">sync_alt</span>
+            </div>
+            <div class="list-item-content">
+              <h3 class="heading-6 item-title">Kanzlei in Lingen: 8 Stunden Arbeitszeit pro Woche gespart</h3>
+              <div class="list-item-metadata">
+                <span class="caption">2026-04-28</span>
+                <span class="caption">Automatisierung</span>
+              </div>
+              <a href="#analysis-section" class="caption arrow-link">Erfolgsstory lesen</a>
+            </div>
+          </article>
+
+          <!-- Blog Card 3 -->
+          <article class="list-item">
+            <div class="list-image-wrapper">
+              <span class="symbol" style="color: var(--text-color);" aria-hidden="true">devices</span>
+            </div>
+            <div class="list-item-content">
+              <h3 class="heading-6 item-title">Moderne Arztpraxis: Online-Termine & Mitarbeitergewinnung</h3>
+              <div class="list-item-metadata">
+                <span class="caption">2026-03-15</span>
+                <span class="caption">Webdesign</span>
+              </div>
+              <a href="#analysis-section" class="caption arrow-link">Erfolgsstory lesen</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section Container (Analyse-Formular) -->
+  <section id="analysis-section" class="download-section-container">
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col col-md-12">
+          <div class="download-section">
+            <div class="download-section-backdrop">
+              <canvas id="canvas-form-bg"></canvas>
+            </div>
+            <div class="download-section-content">
+              <div class="header">
+                <h2 class="heading-4">Kostenlose Website-Analyse</h2>
+              </div>
+              <p>
+                Tragen Sie Ihre Daten ein. Wir analysieren Ihre aktuelle Website, Ihre Rankings im Emsland und Ihre digitalen Abläufe – 100% kostenlos und unverbindlich.
+              </p>
+              
+              <!-- Glassmorphism Form -->
+              <form id="analysis-form" class="analysis-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                  <label for="form-website">Website-URL oder Firmenname *</label>
+                  <input type="text" id="form-website" class="form-control" placeholder="z.B. www.mein-betrieb-emsland.de" required>
+                </div>
+                <div class="form-group">
+                  <label for="form-name">Ihr Name</label>
+                  <input type="text" id="form-name" class="form-control" placeholder="z.B. Max Mustermann">
+                </div>
+                <div class="form-group">
+                  <label for="form-email">Ihre E-Mail-Adresse *</label>
+                  <input type="email" id="form-email" class="form-control" placeholder="z.B. mail@mein-betrieb.de" required>
+                </div>
+                <button type="submit" id="form-submit-btn" class="button button-primary call-to-action" style="width: 100%; margin-top: 10px;">
+                  <span class="symbol" aria-hidden="true">send</span> Gratis prüfen
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="main-footer" class="footer">
+    <div class="footer-main-content">
+      <div class="grid-container">
+        <div class="grid-row footer-inner">
+          <div class="grid-col col-xs-4 col-sm-8 col-md-4">
+            <p class="footer-title heading-5">Bereit abzuheben?</p>
+            <p class="caption">MoodTech Solutions bringt Ihr lokales Business im Emsland auf das nächste digitale Level.</p>
+          </div>
+          <div class="grid-col col-xs-4 col-sm-4 col-md-3 col-md-offset-2">
+            <div class="footer-nav-section">
+              <a class="call-to-action call-to-action--nav" href="#leistungen">Leistungen</a>
+              <a class="call-to-action call-to-action--nav" href="#signal-atlas">Signal-System</a>
+              <a class="call-to-action call-to-action--nav" href="#try-solutions-section">Zielgruppen</a>
+              <a class="call-to-action call-to-action--nav" href="#latest-blogs">Erfolge</a>
+              <a class="call-to-action call-to-action--nav" href="#analysis-section">Analyse anfordern</a>
+            </div>
+          </div>
+          <div class="grid-col col-xs-4 col-sm-4 col-md-3">
+            <div class="footer-nav-section">
+              <a class="call-to-action call-to-action--nav" href="#impressum">Impressum</a>
+              <a class="call-to-action call-to-action--nav" href="#datenschutz">Datenschutz</a>
+              <a class="call-to-action call-to-action--nav" href="#agb">AGB</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Big Stylized SVG Text in Background -->
+    <div class="footer-img-container">
+      <div class="grid-container">
+        <svg viewBox="0 0 1200 250" class="footer-antigravity" xmlns="http://www.w3.org/2000/svg">
+          <text x="50%" y="80%" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="900" font-size="160" fill="#11131a" stroke="#1d202d" stroke-width="2" letter-spacing="12">MOODTECH</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Copyright and Location -->
+    <div class="footer-google-links">
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-col col-xs-4 col-md-3">
+            <a href="#hero-section" class="footer-google-logo">
+              MoodTech <span>SOLUTIONS</span>
+            </a>
+            <p class="caption" style="margin-top: 10px;">&copy; 2026 MoodTech Solutions. Alle Rechte vorbehalten.</p>
+          </div>
+          <div class="grid-col col-xs-4 col-md-6 col-md-offset-3">
+            <nav class="footer-google-nav">
+              <p class="location-tags">
+                Entwickelt im Emsland: 
+                <span>Lingen</span> | 
+                <span>Meppen</span> | 
+                <span>Papenburg</span> | 
+                <span>Haren</span>
+              </p>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JS block for interactive components -->
+  <script>
+    // Tab switching logic for Feature Explorer
+    function switchTab(tabId) {
+      // Deactivate all tabs
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+      // Activate selected tab button and content
+      document.getElementById(`tab-btn-${tabId}`).classList.add('active');
+      document.getElementById(`tab-content-${tabId}`).classList.add('active');
+    }
+
+    // Form submission simulation
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const website = document.getElementById('form-website').value;
+      const name = document.getElementById('form-name').value;
+      const email = document.getElementById('form-email').value;
+
+      const submitBtn = document.getElementById('form-submit-btn');
+      submitBtn.innerHTML = '<span class="symbol">autorenew</span> Analyse läuft...';
+      submitBtn.disabled = true;
+
+      // Simulate a server request
+      setTimeout(() => {
+        alert(`Vielen Dank für Ihre Anfrage, ${name || 'Besucher'}!\nWir analysieren Ihre Website (${website}) und melden uns in Kürze unter ${email} bei Ihnen.`);
+        document.getElementById('analysis-form').reset();
+        submitBtn.innerHTML = '<span class="symbol">check</span> Analyse angefordert';
+        
+        setTimeout(() => {
+          submitBtn.innerHTML = '<span class="symbol">send</span> Gratis prüfen';
+          submitBtn.disabled = false;
+        }, 3000);
+      }, 1500);
+    }
+  </script>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
